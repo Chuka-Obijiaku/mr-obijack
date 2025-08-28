@@ -1,0 +1,311 @@
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+html {
+    width: 100vw;
+}
+
+/* 3. Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+body {
+  /* 4. Add accessible line-height */
+  line-height: 1.5;
+  /* 5. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+  /*change font*/
+  font-family: "Roboto", sans-serif;
+  
+}
+
+/* 6. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 7. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 8. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 9. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/*
+  10. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+a, u{
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+/*----------------------------------------------------------------code starts here--------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*components*/
+section {
+    width: 100%;
+    display: block;
+    align-items: center;
+    padding: 4rem;
+} 
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 10rem;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 5rem;
+}
+
+.logo {
+    width: 300px;
+    height: 100px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.container {
+    width: 85%;
+    max-width: 1500px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.hero {
+    background-image: url("../images/IMG_1143\ \(2\).JPG");
+    height: 600px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    padding: 2rem 4rem;
+}
+
+.card h3 {
+    font-size: 2rem;
+    margin: 1rem;
+    height: 100px;
+}
+
+.card ul {
+    list-style-type: square;
+    text-align: left;
+}
+
+.simple-steps {
+    margin-bottom: 10rem;
+}
+.simple-steps h2 {
+    text-align: center;
+    
+}
+
+.steps {
+    display: flex;
+}
+
+.steps h2 {
+    margin: 1rem;
+}
+
+.steps h3 {
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+.steps li {
+    padding: 3rem;
+}
+
+
+
+/* <weight>: Use a value from 100 to 900
+   <uniquifier>: Use a unique and descriptive class name*/
+
+.roboto-400 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+header {
+    padding: 25px 100px;
+    width: 100%;
+    
+}
+
+
+
+/* utilite*/
+
+.mg-btm {
+    margin-bottom: 1rem;
+}
+
+.mg-auto{
+    margin: auto;
+}
+
+/*.logo {
+    font-size: 2.5rem;
+}
+
+button {
+    border: 0px;
+    padding: 1.2rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+}
+
+.big-num {
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+/-*utilities*-/
+
+.cl-blue {
+    color: blue;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.list-style{
+    list-style-type: square;
+}
+
+.bg-cream {
+    background-color: cornsilk;
+}
+
+/-*allign*-/
+
+.align-items-center {
+    align-items: center;
+}
+.text-align-lt {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/-*display*-/
+.flex {
+    display: flex;
+}
+
+.flexdir-col {
+    flex-direction: column;
+}
+
+.jc-space-between {
+    justify-content: space-between;
+}
+
+/-*Margin*-/
+.mg-nav {
+    margin: 30px;
+}
+
+.mg-1 {
+    margin: 1rem;
+}
+.mg-v1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mg-v3{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.mg-3 {
+    margin: 3rem;
+}
+
+.mg-auto{
+    margin: auto;
+}
+/-*padding*-/
+.pd-1 {
+    padding: 1rem;
+}
+.pd-2 {
+    padding: 2rem;
+}
+
+.pd-3 {
+    padding: 5rem;
+}
+/-*height*-/
+.height-700 {
+    height: 700px;
+}
+
+/-*width*-/
+.width-max {
+    width: 100%;
+}
+
+.bd-radius-10 {
+    border-radius: 35px
+}
+
+.bd-hilight {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+*/
