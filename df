@@ -1,0 +1,29 @@
+[33mcommit 6054ce054a0802928e390cedbf81a4ee4bf1a0dd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Chuka Obijiaku <obijiakuchuka@gmail.com>
+Date:   Sat Dec 6 03:08:34 2025 -0600
+
+    Made the webiste responive to three screen sizes and longer beat store.
+
+[33mcommit 4904557a566baf253fcc23e66446de3d70db55f0[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Chuka <22582292+Chuka-Obijiaku@users.noreply.github.com>
+Date:   Sat Aug 30 00:10:55 2025 -0500
+
+    Delete CNAME
+
+[33mcommit b79c53d6986a97d6fca7173583c11e10e8428ba9[m
+Author: Chuka <22582292+Chuka-Obijiaku@users.noreply.github.com>
+Date:   Thu Aug 28 02:20:07 2025 -0500
+
+    Create CNAME
+
+[33mcommit d7854eddcefb1a842131b6cbfab49730f3563df4[m
+Author: Chuka <22582292+Chuka-Obijiaku@users.noreply.github.com>
+Date:   Thu Aug 28 02:05:57 2025 -0500
+
+    the first iteration of site just the store
+
+[33mcommit 26da932471bfbfff1fe79f22421c4e7ae8232953[m
+Author: Chuka <22582292+Chuka-Obijiaku@users.noreply.github.com>
+Date:   Thu Aug 28 02:00:31 2025 -0500
+
+    Initial commit
